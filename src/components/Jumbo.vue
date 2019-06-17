@@ -2,7 +2,7 @@
   <div class="container">
 
     <h1 class="title is-3 has-text-centered has-text-grey-dark"> Steem Tag Viewer </h1>
-    <h2 class="subtitle is-6 has-text-centered has-text-grey-dark">Show NEW and TRENDING Steemit posts filtered by Tag</h2>
+    <h2 class="subtitle is-6 has-text-centered has-text-grey-dark">New and Trending STEEMIT posts filtered by Tag</h2>
    
     <div class="field has-addons has-addons-centered">
       <div class="control">

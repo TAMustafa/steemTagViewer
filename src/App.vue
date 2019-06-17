@@ -10,14 +10,14 @@
           <!-- Mark: Trending Section -->
           <div class="column">
             <i class="fas fa-poll" aria-hidden="true"></i>
-            <strong>Trending</strong>
+            <strong> Trending</strong>
             <Trending v-bind:trending="trending" />
           </div>
 
           <!-- Mark: New Section -->
           <div class="column">
             <i class="fas fa-rss" aria-hidden="true"></i>
-            <strong>New</strong>
+            <strong> New</strong>
             <New v-bind:news="news" />
           </div>
 
@@ -52,7 +52,7 @@
 
     methods: {
 
-      runTag(updatedTag) {
+      runTag: function (updatedTag) {
         this.tag = updatedTag
         this.runTrending(),
           this.runNew(),
@@ -81,4 +81,7 @@
 
 <style>
 @import "~bulma/css/bulma.css";
+body {
+  margin: 30px;
+}
 </style>

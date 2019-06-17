@@ -1,7 +1,7 @@
 <template>
 
   <div class="box">
-    <div class="box" v-for="trend in trending" :value="trend" :key="trend">
+    <div class="box" v-for="trend in trending" :key="trend.id">
     <article class=" media">
 
       <div class="media-left">

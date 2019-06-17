@@ -1,7 +1,7 @@
 <template>
 
   <div class="box">
-    <div class="box" v-for="neww in news" :value="neww" :key="neww">
+    <div class="box" v-for="neww in news" :key="neww.id">
     <article class=" media">
 
       <div class="media-left">
